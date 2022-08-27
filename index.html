@@ -15,26 +15,26 @@
 
         <!-- The navigation menu -->
 
-        <nav>
-            <div id="navcontainer">
-                <div class="nav-menu">
-                    <ul>
-                        <li>
-                            <a href="index.html">Services</a>
-                        </li>
-                        <li>
-                            <a href="reviews.html">Reviews</a>
-                        </li>
-                        <li>
-                            <a href="faq.html">FAQ</a>
-                        </li>
-                    </ul>
-                    <div class="pawprints">
-                        <img src="assets/images/border.png" alt="A border with pawprints.">
-                    </div>
-                </div>
+        <nav class="nav-menu">
+            <input id="menu-toggle" type="checkbox" />
+            <label class='menu-button-container' for="menu-toggle">
+                <div class='menu-button'></div>
+            </label>
+            <ul class="menu">
+                <li>
+                    <a href="index.html">Services</a>
+                </li>
+                <li>
+                    <a href="reviews.html">Reviews</a>
+                </li>
+                <li>
+                    <a href="faq.html">FAQ</a>
+                </li>
+            </ul>
+            <div class="pawprints">
+                <img src="assets/images/border.png" alt="A border with pawprints.">
             </div>
-        </nav>
+
     </header>
 
     <!-- The hero image and home-page header -->
@@ -53,10 +53,12 @@
             </div>
             <div class="email-form">
                 <form>
-                    <input type="email" name="email" id="email" placeholder="Enter email" /><button type="submit">OK</button>
+                    <input type="email" name="email" id="email" placeholder="Enter email" /><button
+                        type="submit">OK</button>
                 </form>
                 <div class="hero-text-tiny">
-                    <p>By submitting my e-mail and clicking OK I agree to<br>recieve automated information from Dogpanion.
+                    <p>By submitting my e-mail and clicking OK I agree to<br>recieve automated information from
+                        Dogpanion.
                     </p>
                 </div>
             </div>
