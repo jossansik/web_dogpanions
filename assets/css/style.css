@@ -43,7 +43,7 @@ a:hover {
 }
 
 
-/* This styles the navigation menu */
+/* This styles the navigation menu. The code for the hamburger menu is from: https://codepen.io/alvarotrigo/pen/MWEJEWG */
 
 .nav-menu {
     flex: 1;
@@ -64,6 +64,9 @@ a:hover {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .menu li {
@@ -194,6 +197,11 @@ a:hover {
     cursor: pointer;
 }
 
+.email-form button:hover {
+    background-color: #000;
+    color: #fff;
+
+}
 
 /* This styles the home page info text content */
 
@@ -259,6 +267,10 @@ footer div h3 {
 
 footer div i {
     font-size: 30px;
+}
+
+footer a:hover {
+    color: #000;
 }
 
 /* Styling for different screen sizes */
