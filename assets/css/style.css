@@ -16,10 +16,18 @@ body {
     color: #383232;
 }
 
+h1 {
+    font-family: 'Chewy';
+}
+
 h2 {
     text-align: center;
     font-family: 'Chewy';
     margin-top: 1%;
+}
+
+h3 {
+    font-family: 'Chewy';
 }
 
 p {
@@ -253,6 +261,7 @@ footer {
     display: flex;
     flex: 1;
     flex-direction: row;
+    align-items: center;
     justify-content: space-between;
     height: 30%;
     width: 100%;
@@ -288,6 +297,14 @@ footer a:hover {
 @media (max-width: 700px) {
     .menu-button-container {
         display: flex;
+    }
+
+    .hero-text-small {
+        font-size: 16px;
+    }
+
+    .hero-text-tiny {
+        font-size: 14px;
     }
 
     .nav-menu {
